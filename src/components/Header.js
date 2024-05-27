@@ -8,11 +8,11 @@ export const Header = () => {
       <img src={logo} alt='Logo'/>
       
       <div className="header-right">
-        <a href="#">Home</a>
-        <a href="#">About Us</a>
-        <a href="#">The App</a>
-        <a href="#">FAQs</a>
-        <a href="#">Footer</a>
+        <a href="#home">Home</a>
+        <a href="#home">About Us</a>
+        <a href="#home">The App</a>
+        <a href="#home">FAQs</a>
+        <a href="#home">Footer</a>
       </div>
     </div>
   )
