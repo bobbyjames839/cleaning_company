@@ -1,0 +1,35 @@
+.header {
+  background: var(--lighter-green);
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  z-index: 2;
+}
+
+.header img {
+  height: 55px;
+  margin-left: 30px;
+}
+
+.header-right {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.header-right a {
+  margin: 10px;
+  text-decoration: none;
+  color: var(--darker);
+  transition: .2s;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600px;
+}
+
+.header-right a:hover {
+  color: var(--blue);
+  transform: translateY(-1px);
+}

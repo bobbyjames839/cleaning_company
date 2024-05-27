@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--off-white);
+  width: 100vw;
+  overflow: hidden;
+}
+
+:root {
+  --dark: #313131;
+  --darker: #141414;
+  --white: #ffffff;
+  --off-white: #ffffee;
+  --lighter-green: #a0ffa0; 
+  --light-green: #0fe60f;
+  --dark-green: #066204;
+  --blue: #000fe6;
+  --light-blue: #289aff;
+}
